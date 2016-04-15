@@ -1,6 +1,6 @@
 import test from 'ava';
-import arrayDifference from './';
+import m from './';
 
-test('should filter out the difference', t => {
-	t.deepEqual(arrayDifference([2, 3, 4], [3, 50, 60]), [2, 4]);
+test(t => {
+	t.deepEqual(m([2, 3, 4], [3, 50, 60]), [2, 4]);
 });
