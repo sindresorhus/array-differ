@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save array-differ
 ```
 
@@ -13,7 +13,7 @@ $ npm install --save array-differ
 ## Usage
 
 ```js
-var arrayDiffer = require('array-differ');
+const arrayDiffer = require('array-differ');
 
 arrayDiffer([2, 3, 4], [3, 50]);
 //=> [2, 4]
@@ -38,4 +38,4 @@ Arrays of values to exclude.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
