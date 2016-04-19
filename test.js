@@ -1,7 +1,6 @@
-'use strict';
-var assert = require('assert');
-var arrayDifference = require('./');
+import test from 'ava';
+import m from './';
 
-it('should filter out the difference', function () {
-	assert.deepEqual(arrayDifference([2, 3, 4], [3, 50, 60]), [2, 4]);
+test('filter out the difference', t => {
+	t.deepEqual(m([2, 3, 4], [3, 50, 60]), [2, 4]);
 });
