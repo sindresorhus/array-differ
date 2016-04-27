@@ -23,7 +23,7 @@ arrayDiffer([2, 3, 4], [3, 50]);
 
 ### arrayDiffer(input, values, [values, ...])
 
-Returns the new array.
+Returns a new array.
 
 #### input
 
