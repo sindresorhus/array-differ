@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save array-differ
 ```
 
@@ -38,4 +38,4 @@ Arrays of values to exclude.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
