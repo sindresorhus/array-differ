@@ -1,15 +1,15 @@
 /**
- * Create an array with values that are present in the first input array but not additional ones.
+ * Create an array with values that are present in the first array but not additional ones.
+ *
+ * @param array - The array to compare against.
+ * @param values - The arrays with values to be excluded.
+ * @returns A new array of filtered values.
  *
  * @example
  *
- * const arrayDiffer = require('array-differ');
+ * import arrayDiffer from 'array-differ';
  *
  * arrayDiffer([2, 3, 4], [3, 50]);
- *  //=> [2, 4]
- *
- * @param input - The base array for comparision
- * @param values - Arrays of value to exculed
- * @returns  A new array with 'values' excluded
+ * //=> [2, 4]
  */
-export default function arrayDiffer<T>(input: ArrayLike<T>, ...values: Array<ArrayLike<T>>): T[];
+export default function arrayDiffer<T>(array: ArrayLike<T>, ...values: ArrayLike<T>[]): T[];
