@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save array-differ
+$ npm install array-differ
 ```
 
 
@@ -21,17 +21,17 @@ arrayDiffer([2, 3, 4], [3, 50]);
 
 ## API
 
-### arrayDiffer(input, values, [values, ...])
+### arrayDiffer(input, ...values)
 
 Returns a new array.
 
 #### input
 
-Type: `array`
+Type: `unknown[]`
 
 #### values
 
-Type: `array`
+Type: `unknown[]`
 
 Arrays of values to exclude.
 

@@ -1,7 +1,8 @@
 'use strict';
-const arrayDiffer = (arr, ...values) => {
+
+const arrayDiffer = (array, ...values) => {
 	const rest = new Set([].concat(...values));
-	return arr.filter(x => !rest.has(x));
+	return array.filter(x => !rest.has(x));
 };
 
 module.exports = arrayDiffer;
