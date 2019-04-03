@@ -6,4 +6,3 @@ const arrayDiffer = (array, ...values) => {
 };
 
 module.exports = arrayDiffer;
-module.exports.default = arrayDiffer;
