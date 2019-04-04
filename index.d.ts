@@ -14,8 +14,8 @@ arrayDiffer([2, 3, 4], [3, 50]);
 ```
 */
 declare function arrayDiffer<ValueType>(
-	array: ReadonlyArray<ValueType>,
-	...values: ReadonlyArray<ValueType>[]
+	array: readonly ValueType[],
+	...values: (readonly ValueType[])[]
 ): ValueType[];
 
 export = arrayDiffer;
