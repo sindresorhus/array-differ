@@ -1,4 +1,4 @@
-# array-differ [![Build Status](https://travis-ci.org/sindresorhus/array-differ.svg?branch=master)](https://travis-ci.org/sindresorhus/array-differ)
+# array-differ
 
 > Create an array with values that are present in the first input array but not additional ones
 
