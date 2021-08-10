@@ -33,6 +33,12 @@ Type: `unknown[]`
 
 Arrays of values to exclude.
 
+## FAQ
+
+### What is the time complexity of the algorithm?
+
+[Read here.](https://github.com/sindresorhus/array-differ/issues/10)
+
 ---
 
 <div align="center">
