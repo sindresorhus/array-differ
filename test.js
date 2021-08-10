@@ -1,5 +1,5 @@
 import test from 'ava';
-import arrayDiffer from '.';
+import arrayDiffer from './index.js';
 
 test('main', t => {
 	t.deepEqual(arrayDiffer([2, 3, 4], [3, 50, 60]), [2, 4]);

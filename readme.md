@@ -2,18 +2,16 @@
 
 > Create an array with values that are present in the first input array but not additional ones
 
-
 ## Install
 
 ```
 $ npm install array-differ
 ```
 
-
 ## Usage
 
 ```js
-const arrayDiffer = require('array-differ');
+import arrayDiffer from 'array-differ';
 
 arrayDiffer([2, 3, 4], [3, 50]);
 //=> [2, 4]
@@ -34,7 +32,6 @@ Type: `unknown[]`
 Type: `unknown[]`
 
 Arrays of values to exclude.
-
 
 ---
 
