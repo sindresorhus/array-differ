@@ -1,6 +1,6 @@
 {
 	"name": "array-differ",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Create an array with values that are present in the first input array but not additional ones",
 	"license": "MIT",
 	"repository": "sindresorhus/array-differ",
